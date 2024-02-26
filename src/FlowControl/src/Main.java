@@ -6,7 +6,7 @@ public class Main {
         SwitchMonthName.execute();
         SwitchDaysByMonth.execute();
         ForLoop.execute();
-        //WhileLoop.execute();
+        WhileLoop.execute();
         ForEachLoop.execute();
         TagLoops.execute();
     }
