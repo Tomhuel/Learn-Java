@@ -1,6 +1,6 @@
 public class MatrixExample {
     public static void execute() {
-        System.out.println("Matrix Example:");
+        System.out.println("· Matrix Example:");
         int[][] numbers = new int[2][4];
 
         int count = 0;
