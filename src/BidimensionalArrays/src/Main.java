@@ -7,5 +7,6 @@ public class Main {
         SimetricMatrix.execute();
         TransposedMatrix.execute();
         TranposedTwoMatrix.execute();
+        AddMatrixs.execute();
     }
 }
