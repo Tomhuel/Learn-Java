@@ -8,5 +8,6 @@ public class Main {
         TransposedMatrix.execute();
         TranposedTwoMatrix.execute();
         AddMatrixs.execute();
+        AddRowsAndCols.execute();
     }
 }
