@@ -6,5 +6,6 @@ public class Main {
         LoopInMatrix.execute();
         MatrixVariableLength.execute();
         FindElementByValue.execute();
+        SimetricMatrix.execute();
     }
 }
