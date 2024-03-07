@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class Main {
     public static void main(String[] args) {
         MatrixExample.execute();
@@ -7,5 +5,6 @@ public class Main {
         MatrixVariableLength.execute();
         FindElementByValue.execute();
         SimetricMatrix.execute();
+        TransposedMatrix.execute();
     }
 }
