@@ -6,5 +6,6 @@ public class Main {
         FindElementByValue.execute();
         SimetricMatrix.execute();
         TransposedMatrix.execute();
+        TranposedTwoMatrix.execute();
     }
 }
