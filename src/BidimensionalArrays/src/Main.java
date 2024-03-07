@@ -9,5 +9,6 @@ public class Main {
         TranposedTwoMatrix.execute();
         AddMatrixs.execute();
         AddRowsAndCols.execute();
+        MatrixIdentity.execute();
     }
 }
