@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1139a4bf-b1d8-4464-89a6-9543ef4aa45a" name="Changes" comment="Packages">
+      <change beforePath="$PROJECT_DIR$/../Arrays/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/AddElementAtIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/AddElementAtStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/AddElementByOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/ArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/ArraySandwichOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/DeleteElementByIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/EvenorNotEvenArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/FindByInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/IdentifyOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/LoopForArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/MaxNumberArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/MergeArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/RandomNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/SortArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/StudentsMarks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/BidimensionalArrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/AddMatrixs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/AddRowsAndCols.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/FindElementByValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/LoopInMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/MatrixExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/MatrixIdentity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/MatrixVariableLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/RandomMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/SimetricMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/TranposedTwoMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BidimensionalArrays/src/TransposedMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/CLI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/DateAndCalendar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/src/CalendarExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/src/CompareDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/src/DateExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DateAndCalendar/src/StringToDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/FlowControl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/ForEachLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/ForLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/IfElse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/SwitchCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/SwitchDaysByMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/SwitchMonthName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/TagLoops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/TwoSleepYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlowControl/src/WhileLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundo/HolaMundo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/Math.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/src/MathExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Math/src/RandomNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/Operations.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Asignation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/HigherNumberTernary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/IncrementalDecremental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Logical.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Relational.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Ternary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operations/src/Unary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/POO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/CarBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/CarColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/EngineType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/GasCapacity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tomhuel/javacourse/packages/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tomhuel/javacourse/packages/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tomhuel/javacourse/packages/garden/Bush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tomhuel/javacourse/packages/garden/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tomhuel/javacourse/packages/garden/Kid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tomhuel/javacourse/packages/user/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tomhuel/javacourse/packages/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/Strings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/ConcatSpeedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/GetExtensionFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/StringArrayMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/StringConcat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/StringMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/ValidateString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/src/AssignSystemProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/src/ExecuteOtherApps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/src/GetEnvData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/src/SystemProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../System/src/configuration.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/.idea/dictionaries/tomhuel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/Variables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/src/DetalleDeFactura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/src/EspecialCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/src/NumberSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/src/NumberSystemCLI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/src/Primitives.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variables/src/TypeConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/Wrapper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/src/AutoBoxingInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/src/IntegerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wrapper/src/getClassWrapper.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2dbGPHrIdzUcs21tKXQ1t6JAVOM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/tomhuel/Courses/JavaSpring-Curso/src/15-Packages"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="xyz.tomhuel.javacourse.packages.Main" />
+      <module name="Packages" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1139a4bf-b1d8-4464-89a6-9543ef4aa45a" name="Changes" comment="" />
+      <created>1710269338946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710269338946</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Packages">
+      <option name="closed" value="true" />
+      <created>1710271676129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710271676129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Packages" />
+  </component>
+</project>
