@@ -10,6 +10,7 @@ import io.github.tomhuel.app.domain.form.validator.notnull.NotNullValidator;
 import io.github.tomhuel.app.domain.form.validator.numeric.NumericValidator;
 import io.github.tomhuel.app.domain.form.validator.required.RequiredValidator;
 
+import java.io.Serializable;
 import java.util.List;
 
 public class Main {
