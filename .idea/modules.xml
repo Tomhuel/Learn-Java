@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaSpring-Curso.iml" filepath="$PROJECT_DIR$/.idea/JavaSpring-Curso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l01-HolaMundo/l01-HolaMundo.iml" filepath="$PROJECT_DIR$/src/l01-HolaMundo/l01-HolaMundo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l02-Variables/l02-Variables.iml" filepath="$PROJECT_DIR$/src/l02-Variables/l02-Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l03-Strings/l03-Strings.iml" filepath="$PROJECT_DIR$/src/l03-Strings/l03-Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l04-Operations/l04-Operations.iml" filepath="$PROJECT_DIR$/src/l04-Operations/l04-Operations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l05-FlowControl/l05-FlowControl.iml" filepath="$PROJECT_DIR$/src/l05-FlowControl/l05-FlowControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l06-Wrapper/l06-Wrapper.iml" filepath="$PROJECT_DIR$/src/l06-Wrapper/l06-Wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l08-DateAndCalendar/l08-DateAndCalendar.iml" filepath="$PROJECT_DIR$/src/l08-DateAndCalendar/l08-DateAndCalendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l09-System/l09-System.iml" filepath="$PROJECT_DIR$/src/l09-System/l09-System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l10-Math/l10-Math.iml" filepath="$PROJECT_DIR$/src/l10-Math/l10-Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l11-CLI/l11-CLI.iml" filepath="$PROJECT_DIR$/src/l11-CLI/l11-CLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l12-Arrays/l12-Arrays.iml" filepath="$PROJECT_DIR$/src/l12-Arrays/l12-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l13-BidimensionalArrays/l13-BidimensionalArrays.iml" filepath="$PROJECT_DIR$/src/l13-BidimensionalArrays/l13-BidimensionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l14-POO/l14-POO.iml" filepath="$PROJECT_DIR$/src/l14-POO/l14-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l15-Packages/l15-Packages.iml" filepath="$PROJECT_DIR$/src/l15-Packages/l15-Packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l16-BillExample/l16-BillExample.iml" filepath="$PROJECT_DIR$/src/l16-BillExample/l16-BillExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l17-Overload/l17-Overload.iml" filepath="$PROJECT_DIR$/src/l17-Overload/l17-Overload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l18-Inheritance/l18-Inheritance.iml" filepath="$PROJECT_DIR$/src/l18-Inheritance/l18-Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l19-AbstractClasses/l19-AbstractClasses.iml" filepath="$PROJECT_DIR$/src/l19-AbstractClasses/l19-AbstractClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/l20-Interfaces/l20-Interfaces.iml" filepath="$PROJECT_DIR$/src/l20-Interfaces/l20-Interfaces.iml" />
+    </modules>
+  </component>
+</project>
