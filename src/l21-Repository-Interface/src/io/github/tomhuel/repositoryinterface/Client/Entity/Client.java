@@ -1,21 +1,21 @@
 package io.github.tomhuel.repositoryinterface.Client.Entity;
 
+import io.github.tomhuel.repositoryinterface.BaseEntity.BaseEntity;
+
 import java.util.Objects;
 
-public class Client implements Comparable {
-    private Integer id;
-    private static int lastId = 1;
+public class Client extends BaseEntity implements Comparable {
     private String username;
     private String email;
 
     public Client(String username, String email) {
-        this();
+        super();
         this.email = email;
         this.username = username;
     }
 
     private Client() {
-        this.id = lastId++;
+        super();
     }
 
     public Integer getId() {
