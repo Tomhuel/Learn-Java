@@ -89,7 +89,7 @@ public abstract class AbstractListRepository<T extends BaseEntity> implements By
                 return this.update(tt.getId(), t);
             }
         }
-        return null;
+        throw new NotFoundException("Object Not Found");
     }
 
     public T update(Integer id, T t) throws GetDataAccessException, SetDataAccessException {
