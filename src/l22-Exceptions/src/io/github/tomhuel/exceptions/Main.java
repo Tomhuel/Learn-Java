@@ -1,5 +1,7 @@
 package io.github.tomhuel.exceptions;
 
+import io.github.tomhuel.exceptions.Calculator.*;
+
 import javax.swing.*;
 
 public class Main {
@@ -8,16 +10,19 @@ public class Main {
     }
 
     public static void tryCatchExample(String[] args) {
-        String sValue = JOptionPane.showInputDialog("Introduce a number:");
+        String numerator = JOptionPane.showInputDialog("Introduce a numerator:");
+        String denominator = JOptionPane.showInputDialog("Introduce a denominator:");
         try {
-            int value = Integer.parseInt(sValue);
-            int fraction = 10 / value;
+            double fraction = Calculator.division(numerator, denominator);
             System.out.println(fraction);
-        } catch (NumberFormatException e) {
-            System.err.println("Number Format Error: " + e.getMessage());
+        } catch (CustomNumberFormatException e) {
+            System.err.println(e.getMessage());
             main(args);
-        } catch (ArithmeticException e) {
-            System.err.println("Arithmetic Error: " + e.getMessage());
+        } catch (NumberFormatException e) {
+            System.err.println("Number Format Exception: " + e.getMessage());
+            main(args);
+        } catch (DivisionByZeroException e) {
+            System.err.println("Division by Zero Error: " + e.getMessage());
             main(args);
         }
         System.out.println("Our app continues working :))");
