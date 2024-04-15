@@ -1,9 +1,10 @@
 package io.github.tomhuel.repositoryinterface.Product.Repository;
 
-import io.github.tomhuel.repositoryinterface.Client.Entity.Client;
 import io.github.tomhuel.repositoryinterface.Product.Entity.Product;
-import io.github.tomhuel.repositoryinterface.Repository.AbstractListRepository;
-import io.github.tomhuel.repositoryinterface.Repository.Order;
+import io.github.tomhuel.repositoryinterface.Repository.AbstractClasses.AbstractListRepository;
+import io.github.tomhuel.repositoryinterface.Repository.Enums.Order;
+import io.github.tomhuel.repositoryinterface.Repository.Exceptions.GetDataAccessException;
+import io.github.tomhuel.repositoryinterface.Repository.Exceptions.SetDataAccessException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,11 +30,11 @@ public class ProductListRepository extends AbstractListRepository<Product> {
         return list;
     }
 
-    public Product update(Integer id, String name, String description, Double price) {
+    public Product update(Integer id, String name, String description, Double price) throws GetDataAccessException, SetDataAccessException {
         return this.update(id, new Product(name, description, price));
     }
 
-    public Product update(Integer id, String name, String description) {
+    public Product update(Integer id, String name, String description) throws GetDataAccessException, SetDataAccessException {
         Product product = this.getById(id);
         if (product == null) {
             return null;
@@ -41,7 +42,7 @@ public class ProductListRepository extends AbstractListRepository<Product> {
         return this.update(id, new Product(name, description, product.getPrice()));
     }
 
-    public Product update(Integer id, String name) {
+    public Product update(Integer id, String name) throws GetDataAccessException, SetDataAccessException {
         Product product = this.getById(id);
         if (product == null) {
             return null;
