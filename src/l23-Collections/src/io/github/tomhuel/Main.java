@@ -1,6 +1,7 @@
 package io.github.tomhuel;
 
 import io.github.tomhuel.Collections.Set.HashSetExercise;
+import io.github.tomhuel.Collections.Set.SetLoops;
 import io.github.tomhuel.Collections.Set.TreeSetExercise;
 
 public class Main {
@@ -17,8 +18,11 @@ public class Main {
 //        HashSetExercise.customEquals();
 
         // Tree Set
-        TreeSetExercise.execute();
-        TreeSetExercise.comparable();
+//        TreeSetExercise.execute();
+//        TreeSetExercise.comparable();
+
+        // Set Loops
+        SetLoops.execute();
     }
 
     public static void list() {
