@@ -14,6 +14,7 @@ public class Main {
         // HashSet
 //        HashSetExercise.execute();
 //        HashSetExercise.findDuplicated();
+//        HashSetExercise.customEquals();
 
         // Tree Set
         TreeSetExercise.execute();

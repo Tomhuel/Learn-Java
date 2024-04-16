@@ -46,4 +46,16 @@ public class HashSetExercise {
         System.out.println("Duplicated Fishes:");
         System.out.println(duplicatedFishes);
     }
+
+    public static void customEquals() {
+        Set<Student> ss = new HashSet<>();
+        // Dwayne and George have 2 instances of Student, but the equals method checks by properties and hashcode of their properties, not by their reference.
+        // Dwayne1 could be @318431 and Dwayne2 @318432 (different Memory References) but their properties are exactly the same. We're not comparing references. We're comparing values (name and mark).
+        ss.add(new Student("George", 3));
+        ss.add(new Student("Dwayne", 4));
+        ss.add(new Student("Dwayne", 4));
+        ss.add(new Student("George", 3));
+
+        System.out.println(ss);
+    }
 }

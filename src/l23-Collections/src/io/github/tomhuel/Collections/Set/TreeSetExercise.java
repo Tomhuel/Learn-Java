@@ -1,5 +1,6 @@
 package io.github.tomhuel.Collections.Set;
 
+import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -26,6 +27,7 @@ public class TreeSetExercise {
     public static void comparable() {
         Set<Student> students = new TreeSet<>();
 
+        // The way that TreeSet checks if an Object is already added, is if compareTo == 0. CompareTo would be nice to compare a unique value like a Id.
         students.add(new Student("Jack", 5));
         students.add(new Student("Tom", 10));
         students.add(new Student("Zendaya", 3));
@@ -76,5 +78,19 @@ class Student implements Comparable<Student> {
 
         // By Name
         return this.name.compareTo(o.getName());
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return mark == student.mark && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, mark);
     }
 }
