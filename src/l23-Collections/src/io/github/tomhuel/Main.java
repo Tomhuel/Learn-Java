@@ -3,6 +3,7 @@ package io.github.tomhuel;
 import io.github.tomhuel.Collections.List.ArrayListComparator;
 import io.github.tomhuel.Collections.List.LinkedListExercise;
 import io.github.tomhuel.Collections.Map.HashMapExercise;
+import io.github.tomhuel.Collections.Map.TreeMapExercise;
 import io.github.tomhuel.Collections.Set.HashSetExercise;
 import io.github.tomhuel.Collections.Set.SetLoops;
 import io.github.tomhuel.Collections.Set.TreeSetExercise;
@@ -35,6 +36,7 @@ public class Main {
     }
 
     public static void map() {
-        HashMapExercise.execute();
+//        HashMapExercise.execute();
+        TreeMapExercise.execute();
     }
 }
