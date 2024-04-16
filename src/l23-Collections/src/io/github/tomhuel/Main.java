@@ -1,5 +1,6 @@
 package io.github.tomhuel;
 
+import io.github.tomhuel.Collections.List.ArrayListComparator;
 import io.github.tomhuel.Collections.Set.HashSetExercise;
 import io.github.tomhuel.Collections.Set.SetLoops;
 import io.github.tomhuel.Collections.Set.TreeSetExercise;
@@ -22,11 +23,11 @@ public class Main {
 //        TreeSetExercise.comparable();
 
         // Set Loops
-        SetLoops.execute();
+//        SetLoops.execute();
     }
 
     public static void list() {
-
+        ArrayListComparator.execute();
     }
 
     public static void map() {

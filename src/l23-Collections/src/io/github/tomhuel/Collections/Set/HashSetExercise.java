@@ -1,5 +1,7 @@
 package io.github.tomhuel.Collections.Set;
 
+import io.github.tomhuel.Collections.Entities.Student;
+
 import java.util.HashSet;
 import java.util.Set;
 
