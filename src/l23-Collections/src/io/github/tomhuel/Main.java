@@ -27,7 +27,8 @@ public class Main {
     }
 
     public static void list() {
-        ArrayListComparator.execute();
+        //ArrayListComparator.execute();
+        ArrayListExercise.execute();
     }
 
     public static void map() {
