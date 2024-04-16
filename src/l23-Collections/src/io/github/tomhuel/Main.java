@@ -17,6 +17,7 @@ public class Main {
 
         // Tree Set
         TreeSetExercise.execute();
+        TreeSetExercise.comparable();
     }
 
     public static void list() {
