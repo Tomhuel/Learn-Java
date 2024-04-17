@@ -1,5 +1,8 @@
 package io.github.tomhuel.ExecutorFramework;
 
+import io.github.tomhuel.ExecutorFramework.Timers.ScheduledExecutorServiceExercise;
+import io.github.tomhuel.ExecutorFramework.Timers.ScheduledExecutorServicePeriodicExercise;
+
 import java.util.concurrent.*;
 
 public class ExecutorFramework {
@@ -7,7 +10,9 @@ public class ExecutorFramework {
 //        executeService();
 //        FutureExercise.execute();
 //        ThreadPoolExecutorExercise.execute();
-        ExecutorProducerExercise.execute();
+//        ExecutorProducerExercise.execute();
+//        ScheduledExecutorServiceExercise.execute();
+        ScheduledExecutorServicePeriodicExercise.execute();
     }
 
     private static void executeService() throws InterruptedException {
