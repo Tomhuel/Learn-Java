@@ -1,10 +1,12 @@
 package io.github.tomhuel;
 
 import io.github.tomhuel.Threads.ExtendsThread;
+import io.github.tomhuel.Threads.RunnableThread;
 
 public class Main {
     public static void main(String[] args) {
         //executeExtendsThread();
+        executeRunnables();
     }
 
     public static void executeExtendsThread() {
@@ -20,5 +22,12 @@ public class Main {
         System.out.println(thread1.getState());
         System.out.println(thread2.getState());
         System.out.println(thread3.getState());
+    }
+
+    public static void executeRunnables() {
+        new Thread(new RunnableThread("Hello")).start();
+        new Thread(new RunnableThread("Goodbye")).start();
+        new Thread(new RunnableThread("Who are you?")).start();
+
     }
 }
