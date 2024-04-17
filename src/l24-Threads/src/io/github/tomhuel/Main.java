@@ -1,5 +1,6 @@
 package io.github.tomhuel;
 
+import io.github.tomhuel.Synchronization.Bakery;
 import io.github.tomhuel.Threads.ExtendsThread;
 import io.github.tomhuel.Threads.RunnableThread;
 import io.github.tomhuel.Threads.SynchronizeThreads;
@@ -7,9 +8,22 @@ import io.github.tomhuel.Threads.SynchronizeThreads;
 public class Main {
     public static void main(String[] args) {
         try {
-            //executeExtendsThread();
-            //executeRunnables();
-            SynchronizeThreads.execute();
+            // How to create a Thread with inheritance
+//            executeExtendsThread();
+
+            // How to create a Thread with runnable
+//            executeRunnables();
+
+            // Synchronize Methods
+//            SynchronizeThreads.execute();
+
+            // How to Synchronize different Threads
+//            Bakery.execute();
+
+            // How to Synchronize different Threads with Java 8 Lambdas
+            Bakery.executeLambdas();
+
+            throw new InterruptedException("");
         } catch (InterruptedException e) {
             System.err.println(e.getMessage());
         }
