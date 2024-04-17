@@ -1,10 +1,13 @@
 package io.github.tomhuel;
 
+import io.github.tomhuel.ExecutorFramework.ExecutorFramework;
 import io.github.tomhuel.Synchronization.Bakery;
 import io.github.tomhuel.Threads.ExtendsThread;
 import io.github.tomhuel.Threads.RunnableThread;
 import io.github.tomhuel.Threads.SynchronizeThreads;
 import io.github.tomhuel.Timers.AddTimer;
+
+import java.util.concurrent.ExecutionException;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,10 +28,12 @@ public class Main {
 //            Bakery.executeLambdas();
 
             // Timer Tasks
-            AddTimer.execute();
+//            AddTimer.execute();
 
+            // Executor Framework
+            ExecutorFramework.execute();
             throw new InterruptedException("");
-        } catch (InterruptedException e) {
+        } catch (InterruptedException | ExecutionException e) {
             System.err.println(e.getMessage());
         }
 
