@@ -4,6 +4,7 @@ import io.github.tomhuel.Synchronization.Bakery;
 import io.github.tomhuel.Threads.ExtendsThread;
 import io.github.tomhuel.Threads.RunnableThread;
 import io.github.tomhuel.Threads.SynchronizeThreads;
+import io.github.tomhuel.Timers.AddTimer;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +22,10 @@ public class Main {
 //            Bakery.execute();
 
             // How to Synchronize different Threads with Java 8 Lambdas
-            Bakery.executeLambdas();
+//            Bakery.executeLambdas();
+
+            // Timer Tasks
+            AddTimer.execute();
 
             throw new InterruptedException("");
         } catch (InterruptedException e) {
