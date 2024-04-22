@@ -26,7 +26,8 @@ public class StreamSingleFilter {
             return u.getName().substring(0, 1).equals(u.getName().substring(0, 1).toUpperCase());
         });
 
-        Optional<User> user = users.findFirst();
-        System.out.println(user.get());
+        Optional<User> userOptional = users.findFirst();
+        User user = userOptional.get();
+        System.out.println(user);
     }
 }
