@@ -4,10 +4,7 @@ import io.github.tomhuel.APIStream.StreamAnyMatch.StreamAnyMatch;
 import io.github.tomhuel.APIStream.StreamAnyMatch.StreamCount;
 import io.github.tomhuel.APIStream.StreamFilter.StreamFilter;
 import io.github.tomhuel.APIStream.StreamFilter.StreamSingleFilter;
-import io.github.tomhuel.APIStream.StreamOperators.StreamDistinct;
-import io.github.tomhuel.APIStream.StreamOperators.StreamFilterEmpty;
-import io.github.tomhuel.APIStream.StreamOperators.StreamRange;
-import io.github.tomhuel.APIStream.StreamOperators.StreamReduce;
+import io.github.tomhuel.APIStream.StreamOperators.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,9 +18,11 @@ public class Main {
 //        StreamAnyMatch.execute();
 //        StreamCount.execute();
 
-        StreamFilterEmpty.execute();
-        StreamDistinct.execute();
-        StreamReduce.execute();
-        StreamRange.execute();
+//        StreamFilterEmpty.execute();
+//        StreamDistinct.execute();
+//        StreamReduce.execute();
+//        StreamRange.execute();
+
+        StreamDistinctUser.execute();
     }
 }
