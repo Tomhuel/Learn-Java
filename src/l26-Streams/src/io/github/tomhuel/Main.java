@@ -8,6 +8,7 @@ import io.github.tomhuel.APIStream.StreamFilter.StreamFilter;
 import io.github.tomhuel.APIStream.StreamFilter.StreamSingleFilter;
 import io.github.tomhuel.APIStream.StreamFlatMap.StreamFlatMap;
 import io.github.tomhuel.APIStream.StreamOperators.*;
+import io.github.tomhuel.APIStream.StreamUserBills.StreamUserBills;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +32,8 @@ public class Main {
 //        StreamFlatMap.execute();
 //        ListToStream.execute();
 
-        InfiniteStream.execute();
+//        InfiniteStream.execute();
+
+        StreamUserBills.execute();
     }
 }
