@@ -2,13 +2,12 @@ package io.github.tomhuel.APIStream.StreamAnyMatch;
 
 import io.github.tomhuel.APIStream.User;
 
-import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-public class StreamAnyMatch {
+public class StreamCount {
     public static void execute() {
-        System.out.println("· Stream Any Match");
+        System.out.println("· Stream Count");
         Stream<String> names = Stream.of("William pinkerton", "Kayle", "karen", "chad");
 
         Function<String, String> parser = (string) -> {
@@ -23,7 +22,7 @@ public class StreamAnyMatch {
             return new User(parser.apply(split[0]), parser.apply(split[1]));
         });
 
-        boolean userExists = users.anyMatch(u -> u.getName().equals("William")); // true
-        System.out.println(userExists);
+        long userCount = users.count();
+        System.out.println(userCount);
     }
 }
