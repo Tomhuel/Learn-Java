@@ -1,14 +1,14 @@
-package io.github.tomhuel.APIStream.StreamMap;
+package io.github.tomhuel.APIStream.StreamFilter;
 
 import io.github.tomhuel.APIStream.User;
 
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-public class StreamMap {
+public class StreamFilter {
     public static void execute() {
-        System.out.println("· Stream Maps");
-        Stream<String> names = Stream.of("wILLIAm pinKertON", "KAyle", "karen", "cHad");
+        System.out.println("· Stream Filter");
+        Stream<String> names = Stream.of("William pinkerton", "Kayle", "karen", "chad");
 
         Function<String, String> parser = (string) -> {
             return string.substring(0, 1).toUpperCase() + string.substring(1).toLowerCase();
@@ -20,6 +20,8 @@ public class StreamMap {
                 return new User(parser.apply(name));
             }
             return new User(parser.apply(split[0]), parser.apply(split[1]));
+        }).filter(u -> {
+            return u.getName().substring(0, 1).equals(u.getName().substring(0, 1).toUpperCase());
         });
 
         System.out.println(users.toList());
