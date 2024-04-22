@@ -4,6 +4,7 @@ import io.github.tomhuel.APIStream.StreamAnyMatch.StreamAnyMatch;
 import io.github.tomhuel.APIStream.StreamAnyMatch.StreamCount;
 import io.github.tomhuel.APIStream.StreamFilter.StreamFilter;
 import io.github.tomhuel.APIStream.StreamFilter.StreamSingleFilter;
+import io.github.tomhuel.APIStream.StreamFlatMap.StreamFlatMap;
 import io.github.tomhuel.APIStream.StreamOperators.*;
 
 public class Main {
@@ -23,6 +24,8 @@ public class Main {
 //        StreamReduce.execute();
 //        StreamRange.execute();
 
-        StreamDistinctUser.execute();
+//        StreamDistinctUser.execute();
+
+        StreamFlatMap.execute();
     }
 }
