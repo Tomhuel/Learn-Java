@@ -10,8 +10,8 @@ public class Main {
 //        CreateStream.execute();
 //        StreamMap.execute();
 //        StreamFilter.execute();
-//        StreamSingleFilter.execute();
-        StreamAnyMatch.execute();
-        StreamCount.execute();
+        StreamSingleFilter.execute();
+//        StreamAnyMatch.execute();
+//        StreamCount.execute();
     }
 }
