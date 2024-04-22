@@ -1,5 +1,6 @@
 package io.github.tomhuel;
 
+import io.github.tomhuel.APIStream.InfiniteStream.InfiniteStream;
 import io.github.tomhuel.APIStream.ListToStream.ListToStream;
 import io.github.tomhuel.APIStream.StreamAnyMatch.StreamAnyMatch;
 import io.github.tomhuel.APIStream.StreamAnyMatch.StreamCount;
@@ -27,7 +28,9 @@ public class Main {
 
 //        StreamDistinctUser.execute();
 
-        StreamFlatMap.execute();
-        ListToStream.execute();
+//        StreamFlatMap.execute();
+//        ListToStream.execute();
+
+        InfiniteStream.execute();
     }
 }
