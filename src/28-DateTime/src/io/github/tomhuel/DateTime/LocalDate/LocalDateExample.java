@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.temporal.ChronoUnit;
 
-public class LocalDateTime {
+public class LocalDateExample {
     public static void execute() {
         LocalDate localDate = LocalDate.now();
         System.out.println(localDate);

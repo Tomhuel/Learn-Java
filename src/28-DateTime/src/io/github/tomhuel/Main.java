@@ -1,9 +1,11 @@
 package io.github.tomhuel;
 
-import io.github.tomhuel.DateTime.LocalDate.LocalDateTime;
+import io.github.tomhuel.DateTime.LocalDate.LocalDateExample;
+import io.github.tomhuel.DateTime.LocalDateTime.LocalDateTimeExample;
 
 public class Main {
     public static void main(String[] args) {
-        LocalDateTime.execute();
+//        LocalDateExample.execute();
+        LocalDateTimeExample.execute();
     }
 }
