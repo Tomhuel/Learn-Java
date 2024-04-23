@@ -1,5 +1,6 @@
 package io.github.tomhuel;
 
+import io.github.tomhuel.Optional.Operators.Operators;
 import io.github.tomhuel.Optional.RepositoryExample.RepositoryOrElse;
 import io.github.tomhuel.Optional.RepositoryExample.RepositoryOrElseThrow;
 
@@ -8,6 +9,7 @@ public class Main {
 //        OptionalExample.execute();
 //        RepositoryExample.execute();
 //        RepositoryOrElse.execute();
-        RepositoryOrElseThrow.execute();
+//        RepositoryOrElseThrow.execute();
+        Operators.execute();
     }
 }
