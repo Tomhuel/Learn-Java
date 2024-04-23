@@ -7,7 +7,7 @@ import io.github.tomhuel.DateTime.LocalDateTime.LocalDateTimeExample;
 public class Main {
     public static void main(String[] args) {
 //        LocalDateExample.execute();
-//        LocalDateTimeExample.execute();
-        DateTimeFormatterExample.execute();
+        LocalDateTimeExample.execute();
+//        DateTimeFormatterExample.execute();
     }
 }
